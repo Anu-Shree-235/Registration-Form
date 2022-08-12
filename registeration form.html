@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registration</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+</head>
+<body style="background-color: gray">
+<form>
+	<center><h1>REGISTRATION FORM</h1></center>
+	<hr>
+	<label>FIRST NAME : </label>
+	<input type="text" name="fname" placeholder="First Name" required><br><br>
+	<label>LAST NAME : </label>
+	<input type="text" name="lname" placeholder="Last Name" required>
+	<br><br>
+	SELECT GENDER : <br>
+	<input type="radio" name="gender" value="male">
+	<label>Male</label><br>
+	<input type="radio" name="gender" value="female">
+	<label>Female</label><br>
+	<input type="radio" name="gender" value="other">
+	<label>Other</label><br><br>
+	SELECT DEPARTMENT : 
+	<select>
+		<option value="MECH">MECH</option>
+		<option value="CIVIL">CIVIL</option>
+		<option value="EEE">EEE</option>
+		<option value="ECE">ECE</option>
+		<option value="ICE">ICE</option>
+		<option value="CSE">CSE</option>
+		<option value="IT">IT</option>
+	</select><br><br>
+	<label>PHONE : </label>
+	<input type="text" name="countrycode" placeholder="Country Code" size="2" required>
+	<input type="tel" name="number" placeholder="1234-567-890" size="25" pattern="[0-9]{4}-[0-9]{3}-[0-9]{3}" required><br><br>
+	ENTER ADDRESS :<br>
+	<textarea rows="5" cols="50"></textarea><br><br> 
+	SELECT KNOWN LANGUAGES :<br>
+	<input type="checkbox" name="program" value="C">
+	<label>C</label><br>
+	<input type="checkbox" name="program" value="C++">
+	<label>C++</label><br>
+	<input type="checkbox" name="program" value="JAVA">
+	<label>JAVA</label><br>
+	<input type="checkbox" name="program" value="PYTHON">
+	<label>PYTHON</label><br>
+	<input type="checkbox" name="program" value="PHP">
+	<label>PHP</label>
+	<br>
+	<br>
+	<label for="resume">UPLOAD RESUME : </label>
+	<input type="file" id="resume" name="resume" required><br><br>
+	<label for="e-mail">E-MAIL : </label>
+	<input type="email" placeholder="Enter e-mail id" name="e-mail" required><br><br>
+	<label for="psw">ENTER PASSWORD : </label>
+	<input type="password" placeholder="Enter Password" name="psw" required><br><br>
+	<label for="pswreap">RE-ENTER PASSWORD : </label>
+	<input type="password" placeholder="Enter Password" name="pswreap" required><br><br>
+	<button type="submit" class="registerbtn">Register</button>
+	<button type="reset" value="Clear">Clear Form</button>
+</form>
+</body>
+</html>
