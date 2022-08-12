@@ -1,6 +1,6 @@
 # Registration-Form
 Here I have created a basic registration form using only HTML. It includes different features as listed below.
-Initially, it starts with texts boxes asking for first and last names. It also includes placeholders.
+Initially, it starts with texts boxes asking for first and last names which also includes placeholders.
 It includes radio buttons for defining gender.
 It contains a dropdown list for selecting departments.
 The next line contains textbox which lets you enter country code and phone number which also includes a placeholder.
